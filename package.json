@@ -1,18 +1,22 @@
 {
   "name": "sum-utils-new",
-  "version": "1.0.3",
+  "version": "1.0.4",
   "description": "",
   "main": "dist/index.js",
   "module": "dist/index.mjs",
   "types": "dist/index.d.ts",
-  "files": ["dist"],
+  "files": [
+    "dist"
+  ],
   "scripts": {
     "build": "tsup src/index.ts --format esm,cjs --dts",
     "release:patch": "npm version patch && git push --follow-tags",
     "release:minor": "npm version minor && git push --follow-tags",
     "release:major": "npm version major && git push --follow-tags"
   },
-  "keywords": ["sum-utils"],
+  "keywords": [
+    "sum-utils"
+  ],
   "author": "plx",
   "license": "ISC",
   "type": "commonjs",
